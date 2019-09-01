@@ -1,17 +1,3 @@
-// module.exports = {
-//   dialect: 'postgres',
-//   host: 'localhost',
-//   username: 'postgres',
-//   password: 'generico',
-//   database: 'meetapp',
-//   define: {
-//     timestamps: true,
-//     underscored: true,
-//     underscoredAll: true
-//   }
-// };
-// S>----------------------------------------------------------------------------------------<//
-
 require('dotenv/config');
 
 module.exports = {

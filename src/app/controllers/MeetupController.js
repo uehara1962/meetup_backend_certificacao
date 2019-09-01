@@ -8,7 +8,7 @@ import File from '../models/File';
 
 class MeetupController {
   async index(req, res) {
-    console.log('========================>req: ', req);
+    // console.log('========================>req: ', req);
 
     const user_id = req.userId;
     const where = {};
@@ -115,7 +115,8 @@ class MeetupController {
 
     await meetup.destroy();
 
-    return res.send();
+    // return res.send();
+    return res.json(meetup);
   }
 }
 

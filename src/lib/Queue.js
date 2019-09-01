@@ -36,7 +36,7 @@ class Queue {
 
   handleFailure(job, err) {
     console.log(`Queue ${job.queue.name}: FAILED`, err);
-    console.log('env: ', process.env.MAIL_USER, process.env.MAIL_PASS);
+    // console.log('env: ', process.env.MAIL_USER, process.env.MAIL_PASS);
   }
 }
 

@@ -137,7 +137,7 @@ class App {
       '/files',
       express.static(path.resolve(__dirname, '..', 'tmp', 'uploads'))
     );
-    console.log('process.env: ', process.env);
+    // console.log('process.env: ', process.env);
   }
 
   routes() {
